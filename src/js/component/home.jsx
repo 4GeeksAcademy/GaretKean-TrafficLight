@@ -14,17 +14,17 @@ export function Home() {
 			<div
 				onClick={() => setSelectedColor("red")}
 				className={
-					"light red" + (SelectedColor === "red" ? " glow" : "")
+					"light red" + (SelectedColor === "red" ? " glow1" : "")
 					}></div>
 			<div
 				onClick={() => setSelectedColor("yellow")}
 				className={
-					"light yellow" + (SelectedColor === "yellow" ? " glow" : "")
+					"light yellow" + (SelectedColor === "yellow" ? " glow2" : "")
 					}></div>
 			<div
 				onClick={() => setSelectedColor("green")}
 				className={
-					"light green" + (SelectedColor === "green" ? " glow" : "")
+					"light green" + (SelectedColor === "green" ? " glow3" : "")
 					}></div>
 			</div>
 			</div>
